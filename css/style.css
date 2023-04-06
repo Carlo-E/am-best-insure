@@ -169,21 +169,24 @@ a:focus {
 	padding: 10px 0;
 }
 
-.navbar-brand {
+/* .navbar-brand {
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 34px;
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
-}
+  height: 80px;
+  justify-content: flex-start;
+} */
 
-.navbar-brand img {
+/* .navbar-brand img {
 	width: 100%;
 	height: auto;
-	max-width: 290px;
-	max-height: 205px;
-}
+	max-width: 400px;
+	max-height: 283px;
+  margin-top: -8px;
+} */
 
 .navbar-brand span {
 	color: #ffffff;
