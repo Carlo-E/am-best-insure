@@ -1,5 +1,5 @@
 .wrapper {
-	max-width: 50rem;
+	max-width: 100%;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -8,6 +8,8 @@
 	margin: 3rem 0;
 	background: #1abc9c;
 	height: 14.75rem;
+    border-radius: 10px; 
+    /* border: 2px solid #bdc3c7;  */
 }
 .tabs::before,
 .tabs::after {
@@ -35,20 +37,22 @@
 	cursor: pointer;
 	top: 0;
 	transition: all 0.25s;
+    border-radius: 10px;
 }
 .tab-label:hover {
 	top: -0.25rem;
 	transition: top 0.25s;
 }
 .tab-content {
-	height: 12rem;
+	height: auto;
 	position: absolute;
 	z-index: 1;
 	top: 2.75em;
 	left: 0;
 	padding: 1.618rem;
-	background: #fff;
+	background: #f0f0f0;
 	color: #2c3e50;
+    border-radius: 10px;
 	border-bottom: 0.25rem solid #bdc3c7;
 	opacity: 0;
 	transition: all 0.35s;
