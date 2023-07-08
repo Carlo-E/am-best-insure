@@ -133,6 +133,16 @@
         <div class="row">
           <div class="wrapper">
             <div class="tabs">
+
+              <!-- Dropdown for smaller screens -->
+              <select class="tab-dropdown">
+                <option value="tab-1">Medicare Supplemental Insurance</option>
+                <option value="tab-2">Prescription Drug Coverage (Part D)</option>
+                <option value="tab-3">Medicare Advantage Plans</option>
+                <option value="tab-4">Life Insurance</option>
+                <option value="tab-5">Supplemental</option>
+              </select>
+
               <div class="tab">
                   <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
                   <label for="tab-1" class="tab-label">Medicare Supplemental Insurance</label>
@@ -143,6 +153,7 @@
                     Selecting the appropriate Medigap policy can be challenging. It's crucial to know that different insurers may assign varying premiums for identical policies. While these premiums may differ across insurers, the benefits offered by standard Medigap plans stay constant. Therefore, it's important to thoroughly evaluate and select the policy whose premium best fits your financial needs.
                    </div>
                 </div>
+
               <div class="tab">
                 <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
                 <label for="tab-2" class="tab-label">Prescription Drug Coverage (Part D)</label>
@@ -157,6 +168,7 @@
                 </div>
               </div>
               </div>
+
               <div class="tab">
                 <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
                 <label for="tab-3" class="tab-label">Medicare Advantage Plans</label>
@@ -172,6 +184,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="tab">
                 <input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
                 <label for="tab-4" class="tab-label">Life Insurance</label>
@@ -187,6 +200,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="tab">
                 <input type="radio" name="css-tabs" id="tab-5" class="tab-switch">
                 <label for="tab-5" class="tab-label">Supplemental</label>
@@ -202,6 +216,7 @@
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
           <!-- <div class="col-md-6 col-lg-3 ">
@@ -764,6 +779,7 @@
   </script>
   <!-- tabs js -->
   <script src="js/tabs.js"></script>
+  <!-- dropdown js -->
+  <script src="dropdown.js"></script>
 </body>
-
 </html>
