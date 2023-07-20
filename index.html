@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <title>Am Best Insure</title>
+  <title>Am Best Insurance</title>
   <script>
     window.onbeforeunload = () => {
       for(const form of document.getElementsByTagName('form')) {
@@ -36,6 +36,8 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <!-- tabs table -->
   <link href="css/tabs.css" rel="stylesheet" />
+  <!-- tabs scss -->
+  <!-- <link rel="stylesheet" href="css/tabs.scss"/> -->
 </head>
 
 <body>
@@ -129,20 +131,74 @@
           <p>
             Experience the peace of mind and protection you deserve with our comprehensive insurance services! Our tailored solutions are designed to keep you covered and prepared for whatever life throws your way, so you can focus on what matters most.
           </p>
+          <!-- Tabs container -->
+      <section class="accordion">
+      <section class="accordion-tabs">
+        <button class="accordion-tab accordion-active" data-actab-group="0" data-actab-id="0">Medicare Supplemental Insurance</button>
+        <button class="accordion-tab" data-actab-group="0" data-actab-id="1">Prescription Drug Coverage (Part D)</button>
+        <button class="accordion-tab" data-actab-group="0" data-actab-id="2">Medicare Advantage Plans</button>
+        <button class="accordion-tab" data-actab-group="0" data-actab-id="3">Life Insurance</button>
+        <button class="accordion-tab" data-actab-group="0" data-actab-id="4">Supplemental Insurance Plans</button>
+        <button class="accordion-tab" data-actab-group="0" data-actab-id="5">ACA Coverage Options</button>
+      </section>
+      <section class="accordion-content">
+        <article class="accordion-item accordion-active" data-actab-group="0" data-actab-id="0">
+          <h4 class="accordion-item__label">Medicare Supplemental Insurance</h4>
+          <div class="accordion-item__container">
+            <div>
+              <strong>
+                Deciphering Part C plans sanctioned by Medicare doesn't have to be a complex process - we aim to simplify it.
+              </strong>
+            </div>
+            <br>
+            <div>
+              Medicare Supplemental Insurance, also known as "Medigap", serves as additional health coverage. It pays for
+              healthcare expenses not met by the original Medicare. Some Medigap policies even offer coverages for healthcare
+              services when you're traveling outside the United States.
+            </div>
+            </p>
+            <p>Selecting the appropriate Medigap policy can be challenging. It's crucial to know that different insurers may assign varying premiums for identical policies. While these premiums may differ across insurers, the benefits offered by standard Medigap plans stay constant. Therefore, it's important to thoroughly evaluate and select the policy whose premium best fits your financial needs.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, deserunt minima? Ut facere minus, ipsa dolore animi quis alias eos, porro corporis quod esse quidem. Maxime a aperiam perspiciatis architecto?</p>
+          </div>
+        </article>
+        <article class="accordion-item" data-actab-group="0" data-actab-id="1">
+          <h4 class="accordion-item__label">Tab 2</h4>
+          <div class="accordion-item__container">
+            <p>reprehenderit temporibus, assumenda cupiditate consequatur soluta odit ex repudiandae delectus cumque, provident hic sed quod? Quis, nam. Similique eaque quae vel recusandae expedita qui sint fugiat, nisi assumenda et ex molestiae atque deleniti magni, ipsam libero!</p>
+          </div>
+        </article>
+        <article class="accordion-item" data-actab-group="0" data-actab-id="2">
+          <h4 class="accordion-item__label">Tab 3</h4>
+          <div class="accordion-item__container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, deserunt minima? Ut facere minus, ipsa dolore animi quis alias eos, porro corporis quod esse quidem. Maxime a aperiam perspiciatis architecto?</p>
+          </div>
+        </article>
+        <article class="accordion-item" data-actab-group="0" data-actab-id="3">
+          <h4 class="accordion-item__label">Tab 4</h4>
+          <div class="accordion-item__container">
+            <p>psum dolor sit amet, consectetur adipisicing elit. Voluptates, deserunt minima? Ut facere minus, ipsa dolore</p>
+          </div>
+        </article>
+        <article class="accordion-item" data-actab-group="0" data-actab-id="4">
+          <h4 class="accordion-item__label">Tab 5</h4>
+          <div class="accordion-item__container">
+            <p>aborum similique facere quae. Quo cupiditate ad iste qui aliquam quibusdam quod, ut doloremque ipsa quas soluta, sapiente possimus, tempora rerum ab nesciunt vitae molestiae dolor earum illum repudiandae! Voluptas sed, soluta facere nisi perferendis cupiditate! Dicta et praesentium non ab, quod commodi, illo saepe accusantium tempora autem eos nemo. Animi, pariatur placeat laudantium dolorib!</p>
+          </div>
+        </article>
+        <article class="accordion-item" data-actab-group="0" data-actab-id="5">
+          <h4 class="accordion-item__label">Tab 5</h4>
+          <div class="accordion-item__container">
+            <p>aborum similique facere quae. Quo cupiditate ad iste qui aliquam quibusdam quod, ut doloremque ipsa quas soluta, sapiente possimus, tempora rerum ab nesciunt vitae molestiae dolor earum illum repudiandae! Voluptas sed, soluta facere nisi perferendis cupiditate! Dicta et praesentium non ab, quod commodi, illo saepe accusantium tempora autem eos nemo. Animi, pariatur placeat laudantium dolorib!</p>
+          </div>
+        </article>
+      </section>
+    </section>
+  
+  <p>Scale down the browser to view the mobile version</p>
         </div>
-        <div class="row">
-          <div class="wrapper">
+          <!-- <div class="wrapper">
             <div class="tabs">
-
-              <!-- Dropdown for smaller screens -->
-              <select class="tab-dropdown">
-                <option value="tab-1">Medicare Supplemental Insurance</option>
-                <option value="tab-2">Prescription Drug Coverage (Part D)</option>
-                <option value="tab-3">Medicare Advantage Plans</option>
-                <option value="tab-4">Life Insurance</option>
-                <option value="tab-5">Supplemental</option>
-              </select>
-
               <div class="tab">
                   <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
                   <label for="tab-1" class="tab-label">Medicare Supplemental Insurance</label>
@@ -218,7 +274,7 @@
               </div>
 
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-md-6 col-lg-3 ">
             <div class="box ">
               <div class="img-box">
@@ -311,7 +367,6 @@
               </div>
             </div>
           </div> -->
-        </div>
         <div class="btn-box">
           <!-- <a href="service.html">
             View All
@@ -330,9 +385,6 @@
   </section>
 
   <!-- end service section -->
-
-  
-
 
   <!-- about section -->
 
@@ -778,8 +830,8 @@
   }
   </script>
   <!-- tabs js -->
-  <script src="js/tabs.js"></script>
+  <!-- <script src="js/tabs.js"></script> -->
   <!-- dropdown js -->
-  <script src="dropdown.js"></script>
+  <script src="js/dropdown.js"></script>
 </body>
 </html>

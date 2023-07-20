@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "compass-mixins": "^0.12.12",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bourbon": "^7.3.0"
+  },
+  "scripts": {
+    "scss": "node-sass -w css/ -o css/"
+  }
+  
+}
