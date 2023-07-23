@@ -8,6 +8,7 @@
 
 .accordion-tabs:focus {
 	outline: none;
+	
 }
 
 .accordion-item {
@@ -102,7 +103,9 @@
 
 @media (min-width: 600px) {
 	.accordion-tabs {
-		display: flex;
+		display: grid;
+		/* flex-wrap: wrap; */
+		grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 		background: #17b978;
 	}
 	.accordion-tab {
@@ -113,7 +116,10 @@
 		border: none;
 		cursor: pointer;
 		transition: background 0.1s ease;
-		max-width: 200px;
+		/* max-width: 200px;  */
+		outline: none;
+		/* flex: 1 0 100px; */
+
 	}
 	.accordion-tab:hover {
 		background: #71dcc7;
@@ -157,17 +163,18 @@
 	box-shadow: 0 1em 1em -0.9em rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 	overflow: hidden;
-	max-width: 1400px;  
+	height: 700px;
+	/* max-width: 1400px;   */
 }
 
 @media (min-width: 600px) {
 	.accordion {
 		max-width: 600px;
 	}
-	.accordion-tabs {
+	/* .accordion-tabs {
 		display: flex;
 		flex-wrap: wrap;
-	}
+	} */
 }
 
 @media (min-width: 601px) {
