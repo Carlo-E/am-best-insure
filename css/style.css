@@ -768,13 +768,14 @@ a:focus {
 
 .news_section .btn-box a {
 	display: inline-block;
-	padding: 10px 45px;
+	padding: 30px 55px;
 	background-color: #071a52;
 	color: #ffffff;
 	border-radius: 0;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	border: 1px solid #071a52;
+	font-size: 25px;
 }
 
 .news_section .btn-box a:hover {
@@ -913,4 +914,51 @@ a:focus {
 .footer_section p a {
 	color: inherit;
 }
+
+.custom-box {
+	padding: 1rem 2rem;
+    text-align: left;  /* align text to the left */
+    width: 100%;  
+    box-sizing: border-box;
+	
+}
+
+.custom-box h2 {
+  color: #0c0c0c;  /* title color */
+}
+
+.custom-box p {
+  color: #0c0c0c;  /* paragraph color */
+}
+
+.custom-button {
+	background: #17b978;  /* button color */
+	color: white;  /* button text color */
+	padding: 1rem 2rem;  /* button padding */
+	font: inherit;  /* inherit font from parent */
+	font-size: larger;
+	border: none;  /* no border */
+	cursor: pointer;  /* pointer cursor on hover */
+	transition: background 0.1s ease;  /* transition effect */
+	outline: none;  /* no outline */
+	border-radius: 5px;  /* button border radius */
+	
+}
+
+.custom-button:hover {
+  background: #71dcc7;  /* change background on hover */
+}
+
+  
+  .custom-box h2 {
+	color: #0c0c0c;  /* title color */
+  }
+  
+  .custom-box p {
+	color: #0c0c0c;  /* paragraph color */
+  }
+  
+  .custom-button:hover {
+	background: #71dcc7;  /* change background on hover */
+  }
 /*# sourceMappingURL=style.css.map */

@@ -36,7 +36,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  // padding: 90px 0;
 }
 
 .layout_padding2 {
@@ -80,7 +80,7 @@ body {
   }
 
   &.heading_center {
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
   }
 
@@ -440,7 +440,7 @@ a:focus {
 
   .btn-box {
     display: flex;
-    justify-content: center;
+    // justify-content: start;
     margin-top: 45px;
 
     a {
@@ -448,6 +448,11 @@ a:focus {
     }
   }
 }
+
+.btn-box.align-left {
+  display: block;
+}
+
 
 // end service section
 
@@ -658,11 +663,11 @@ a:focus {
         font-size: 15px;
       }
 
-      a {
-        display: inline-block;
-        margin-top: 15px;
-        color: $primary2;
-      }
+      // a {
+      //   display: inline-block;
+      //   margin-top: 15px;
+      //   color: $primary2;
+      // }
     }
 
     .news_info {
@@ -678,7 +683,7 @@ a:focus {
 
   .btn-box {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     margin-top: 45px;
 
     a {
@@ -795,4 +800,3 @@ a:focus {
 }
 
 // end footer section
-
