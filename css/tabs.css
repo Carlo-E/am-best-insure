@@ -116,6 +116,7 @@
 		border: none;
 		cursor: pointer;
 		transition: background 0.1s ease;
+		border-right: .5px solid lightgray;  /* Add this line */
 		/* max-width: 200px;  */
 		outline: none;
 		/* flex: 1 0 100px; */
@@ -138,6 +139,7 @@
 		border: none;
 		background: #F5F5F5;
 		min-height: 260px;
+		
 	}
 	.accordion-item__label,
 	.accordion-item__container {
